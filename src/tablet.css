@@ -1,0 +1,12 @@
+@media only screen and (min-width:481px) and (max-width:768px){
+
+    .section-1-col-1-t{
+        font-size: calc(.9rem + 7vw);  
+    }
+    .it-1{
+        grid-column:2 span;
+    }
+    .cohort-item-pattern img{
+        width:16vw;
+    }
+}

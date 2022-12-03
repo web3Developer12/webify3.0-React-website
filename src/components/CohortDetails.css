@@ -1,0 +1,93 @@
+.CohortDetails  {
+    margin-top:8%;
+    margin-inline:5%;
+    height:100vh;
+    color :white;
+    display:grid;
+    grid-template-columns:repeat(1,1fr) 34%;
+    grid-gap:22px;
+    margin-bottom:12%;
+}
+h1{
+    font-family:"ProductSans-Regular";
+    font-size: calc(1rem + 4.2vw); 
+    margin-bottom:1%;
+}
+.subCC{
+    text-align:justify;
+    font-family:"ProductSans-Regular";
+    margin-bottom:2%;
+
+}
+.cohort-img-1733{
+    background:url("../assets/MetaversePOV2_Website.jpg");
+    background-size:cover;
+    height:456px;
+    margin-bottom:2%;
+
+}
+.cohort-img-8734{
+    background:url("../assets/Metaverse\ image.jpg");
+    background-size:cover;
+    height:456px;
+    margin-bottom:2%;
+
+}
+.cohort-img-6541{
+    background:url("../assets/what-is-the-metaverse-and-why-should-you-care.png");
+    background-size:cover;
+    height:456px;
+    margin-bottom:2%;
+
+}
+
+
+.btn-enroll-2{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+    height:45px;
+    width:25%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    font-family:"ProductSans-Regular";
+    transition:.3s;
+}
+.btn-enroll-2:hover{
+    background-color:black;
+    color:white;
+    border: 1px solid white;
+}
+.cohortDetails-col2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cohortWrapper{
+    height: 456px;
+}
+.syll-h{
+    font-family:"ProductSans-Regular";
+    font-size: calc(1rem + 2.2vw); 
+}
+.syll-d{
+    list-style: none;
+    font-family:"ProductSans-Regular";
+
+}
+.syll-d li{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.syll-d li:not(:last-child){
+    border-bottom:1px solid rgba(128, 128, 128, 0.295);
+}
+.checkIcon{
+    width:18px;
+    margin-right:5%;
+}

@@ -1,0 +1,20 @@
+@media only screen and (min-width:300px) and (max-width:480px){
+    .section-1{
+        grid-template-columns:1fr;
+    }
+    .section-1-col-2-wrapper{
+        display:none;
+    }
+    
+    .section-1-col-1-h{
+        font-size: calc(.9rem + .2vw); 
+        
+      
+    }
+    .section-1-col-1-t{
+        font-size: calc(1rem + 9vw);  
+    }
+    .cohort-item {
+        grid-column:2 span;
+    }
+}

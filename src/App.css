@@ -1,0 +1,293 @@
+.App{
+
+}
+.section-1{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  -ms-grid-row-align:12px;
+  padding-inline:5%;
+  padding-top:2vw;
+  color:white;
+  margin-top:6%;
+  margin-bottom:6%;
+}
+
+.section-2{
+  display:grid;
+  grid-gap:12px;
+  grid-template-columns:repeat(2,1fr);
+  padding:5%;
+  color:white;
+}
+.section-2-col-1,.section-1-col-1-h{
+  grid-column:2 span;
+}
+
+.section-1-col-2-wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.section-1-col-1-h{
+  font-family:"ProductSans-Regular";
+  font-size:1.2em;
+  margin-bottom:2%;
+  color:rgba(128, 128, 128, 0.61);
+  font-size: calc(.6rem + .8vw); 
+
+}
+.section-1-col-1-t{
+  font-family:"ProductSans-Regular";
+  font-size:4.2em;
+  color:white;
+  margin-bottom:3.1%;
+  font-size: calc(1rem + 4.2vw); 
+
+
+}
+.section-1-bottom{
+  padding-left:6%;
+  height:112px;
+  font-family:"ProductSans-Regular";
+
+}
+.section-1-bottom-info{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:space-between;
+  border-left:2px solid white;
+  padding-left:3%;
+  height:100%;
+}
+.section-1-bottom-info p{
+  width:87%;
+  font-size: calc(.9rem + .2vw); 
+}
+.section-1-button{
+  font-family:"ProductSans-Regular";
+  font-size:1.1em;
+  border:1px solid white;
+  cursor: pointer;
+  width:82%;
+  height:47px;
+  background-color:transparent;
+  color:white;
+  transition:.3s;
+}
+.section-1-button:hover{
+  background-color:white;
+  color:black;
+}
+.section-1-col-2{
+  background:url("./assets/poster-5.gif");
+  background-size:contain;
+  width:33vw;
+  height:33vw;
+  border-radius:100%;
+}
+.cohort-item{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  background-color:black;
+  padding-top:6%;
+  padding-bottom:8%;
+  padding-inline:4%;
+}
+.cohort-item-pattern{
+  
+  width:100%;
+  height:340px;
+  margin-bottom:11%;
+
+}
+.c-1{
+  background:url("./assets/MetaversePOV2_Website.jpg");
+  background-size:cover;
+
+}
+.c-2{
+  background:url("./assets/Metaverse\ image.jpg");
+  background-size:cover;
+
+}
+.c-3{
+  background:url("./assets/what-is-the-metaverse-and-why-should-you-care.png");
+  background-size:cover;
+
+}
+.cohort-item-pattern img{
+  width:7vw;
+  display:none;
+}
+.cohort-item-cohort-text{
+  font-family:"ProductSans-Regular";
+  color:gray;
+}
+.cohort-item-cohort-header{
+  color:white;
+  font-family:"ProductSans-Regular";
+  font-size:3em;
+}
+.cohort-item-cohort-button{
+  font-family:"ProductSans-Regular";
+  background-color:transparent;
+  color:white;
+  border:none;
+  font-size:1.2em;
+  margin-top:4%;
+  transition:.3s;
+  cursor: pointer;
+}
+.cohort-item-cohort-button:hover{
+  color:rgba(255, 255, 255, 0.486);
+  background-color:white;
+  color:black;
+}
+.section-community{
+  font-family:"ProductSans-Regular";
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+}
+.section-comm-1{
+  width:100%;
+  height:152px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:space-evenly;
+}
+.section-comm-1:nth-child(1){
+  border-top   :.3px solid rgba(128, 128, 128, 0.274);
+  border-bottom:.3px solid rgba(128, 128, 128, 0.274);
+}
+.section-comm-1 p:nth-child(1){
+  color:rgba(128, 128, 128, 0.315);
+}
+.section-comm-1 p:nth-child(2){
+  font-size: calc(1rem + 1.9vw); 
+  color:white;
+}
+
+footer{
+  border-top   :.3px solid rgba(128, 128, 128, 0.274);
+  margin-inline:5%;
+  height:145px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  color:white;
+}
+
+.footer-title{
+  font-family:"ProductSans-Medium";
+  font-size:1.7em;
+  color:rgba(128, 128, 128, 0.507);
+}
+.footer-items{
+  font-family:"ProductSans-Regular";
+  color:gray;
+}
+.footer-items ul {
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  list-style:none;
+
+}
+
+.footer-items ul li{
+  font-size: calc(.6rem + 1vw); 
+  cursor: pointer;
+  transition:.2s;
+}
+
+.footer-items ul li:hover{
+  color:white;
+}
+@media(width <= 990px){
+
+  .section-1{
+    padding-top:6vw;
+  }
+  
+}
+@media(width <= 700px){
+
+  .section-1{
+    padding-top:8vw;
+  }
+  
+}
+@media(width <= 600px){
+
+  .section-1{
+    padding-top:12vw;
+  }
+  
+}
+@media(width <= 417px){
+
+  .section-1{
+    padding-top:16vw;
+  }
+  
+}
+@media(width <=483px){
+  .section-1-col-1-h{
+    display:none;
+  }
+
+}
+@media (width<=597px) {
+  .section-1-button{
+    width:100%;
+  }
+  .section-1-bottom-info p{
+    width:100%;
+    text-align:justify;
+  }
+  .cohort-item-pattern img{
+    width:18vw;
+  }
+}
+@media (width< 600px) {
+  .cohort-item{
+    grid-column:2 span;
+  }
+}
+@media (width < 700px) {
+  .cohort-item{
+    grid-column:2 span;
+  }
+  footer{
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:space-around;
+    color:white;
+  }
+  
+}
+
+@media(width <= 1024px){
+  .section-1-col-2-wrapper{
+    display:none;
+  }
+  .section-1{
+    grid-template-columns:1fr;
+  }
+  .section-1-bottom{
+    padding-left:0%;
+  }
+  .section-1-bottom-info{
+    margin:0px;
+    padding:0px;
+    border:none;
+  }
+
+  
+}
